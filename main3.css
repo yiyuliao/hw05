@@ -1,0 +1,42 @@
+.nav>li{
+display: inline-block;
+position: relative;
+}
+.submenu{
+width: 200px;
+padding: 0px;
+position: absolute;
+left: -1px; 
+top: 100%; 
+display: none;
+}
+.nav>li:hover .submenu{
+  display: block;
+}
+.nav>li{
+  border: 1px solid #ddd;
+  border-right: 0;
+  padding: .5em 1em;
+  margin-left: -5px;
+  box-sizing: border-box;
+  width: 25%;
+}
+.nav>li:last-child{
+  border-right: 1px solid #ddd;
+}
+.submenu{
+  background: #eee;
+  padding: 0px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.submenu li{
+  padding: .5em 15px;
+  color: black;
+  cursor: pointer;
+  list-style-type:none;
+}
+.submenu li:hover{
+  color: gray;
+  background: white;
+}

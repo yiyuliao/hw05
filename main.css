@@ -1,0 +1,76 @@
+body{
+background:url("wallpapers.jpg");
+text-align:center;
+}
+
+.col{
+width:20%;
+height:400px;
+background:white;
+display:inline-block;
+margin:50px 6px;
+}
+
+.price-box{
+width:100%;
+height:200px;
+background:navy;
+color:white;
+}
+
+.plan-text{
+text-align:center;  
+padding:18px 0px;
+font-size:20px;
+}
+
+.price-text *{
+display:inline-block;
+}
+
+price-text{
+text-align:center;
+}
+
+.amount{
+font-size:50px;   
+}
+
+.doller{
+vertical-align:top;
+padding-top:8px;
+    
+}
+
+.btn-box{
+text-align:center;
+border:2px solid white;
+width:70%;
+margin-left:auto;
+margin-right:auto;
+padding:6px 0px;
+border-radius:5px;
+margin-top:20px;
+} 
+
+.dis-text{
+text-align:left;  
+padding:18px 0px;
+font-size:15px;
+color:grey;
+padding-top:30px;
+padding-left:50px;
+padding-right:50px;
+}
+
+.line-text *{
+display:inline-block;
+
+}
+
+.line-text{
+padding-top:6px;
+padding-bottom:10px;
+border-bottom:1px solid lightgray;  
+    
+}
